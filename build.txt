@@ -1,0 +1,3 @@
+displayName = Shrimply Overhaul
+author = sloorjuice
+version = 0.1
