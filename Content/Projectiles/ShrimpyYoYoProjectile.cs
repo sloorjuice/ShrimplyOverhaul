@@ -2,9 +2,9 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Projectiles
+namespace ShrimplyOverhaul.Content.Projectiles
 {
-	public class ExampleYoyoProjectile : ModProjectile
+	public class ShrimpyYoYoProjectile : ModProjectile
 	{
 		public override void SetStaticDefaults() {
 			// The following sets are only applicable to yoyo that use aiStyle 99.
