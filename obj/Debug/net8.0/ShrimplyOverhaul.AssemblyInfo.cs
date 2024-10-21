@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShrimplyOverhaul")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1665d2a10492e58e88a4cb2849e13b4f5ef4aa7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShrimplyOverhaul")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShrimplyOverhaul")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

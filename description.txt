@@ -6,4 +6,5 @@ this is my first mod!
 Textures done by me and my girlfriend
 
 New Content:
--Shrimp Sword
+-Shrimpy Sword
+-Shrimpy Bar

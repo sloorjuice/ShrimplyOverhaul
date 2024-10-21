@@ -1,1 +1,16 @@
+Items: {
+	ShrimpyBar: {
+		DisplayName: Shrimpy Bar
+		Tooltip: ""
+	}
 
+	ShrimpySword: {
+		DisplayName: Shrimpy Sword
+		Tooltip: ""
+	}
+
+	ShrimpyGun: {
+		DisplayName: Shrimpy Gun
+		Tooltip: ""
+	}
+}

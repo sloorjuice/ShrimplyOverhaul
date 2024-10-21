@@ -9,7 +9,9 @@ namespace ShrimplyOverhaul.Content.Items
     {
         public override void SetStaticDefaults()
         {
-            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 100;
+            // This accesses the creative catalog
+            // Setting the research number to 100 before it can be fully accessed
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 50;
         }
 
         public override void SetDefaults()
@@ -18,7 +20,17 @@ namespace ShrimplyOverhaul.Content.Items
             Item.height = 24;   // Hitbox Height from Bottom Center
 
             Item.value = Item.buyPrice(gold: 5); // Value of the item 120 = silver: 1, Cooper: 20
-            Item.maxStack = 999;
+            Item.maxStack = 9999;
+        }
+
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.ChlorophyteBar)
+                .AddIngredient(ItemID.Shrimp, 3)
+                .AddTile(TileID.MythrilAnvil)
+                .Register();
         }
     }
 }
