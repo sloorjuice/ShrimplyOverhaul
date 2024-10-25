@@ -3,6 +3,7 @@ using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 using System;
+using ShrimplyOverhaul.Content.Projectiles;
 
 namespace ShrimplyOverhaul.Content.Items
 {
@@ -34,7 +35,7 @@ namespace ShrimplyOverhaul.Content.Items
 			Item.rare = ItemRarityID.Orange; // The item's rarity. This changes the color of the item's name.
 			Item.value = Item.buyPrice(gold: 1); // The amount of money that the item is can be bought for.
 
-			Item.shoot = ModContent.ProjectileType<ModContent.ProjectileType<ShrimpyYoYoProjectile>(); // Which projectile this item will shoot. We set this to our corresponding projectile.
+			Item.shoot = ModContent.ProjectileType<ShrimpyYoyoProjectile>(); // Which projectile this item will shoot. We set this to our corresponding projectile.
 			Item.shootSpeed = 16f; // The velocity of the shot projectile.			
 		}
 
