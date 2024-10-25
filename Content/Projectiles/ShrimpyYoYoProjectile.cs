@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 
 namespace ShrimplyOverhaul.Content.Projectiles
 {
-	public class ShrimpyYoYoProjectile : ModProjectile
+	public class ShrimpyYoyoProjectile : ModProjectile
 	{
 		public override void SetStaticDefaults() {
 			// The following sets are only applicable to yoyo that use aiStyle 99.

@@ -13,4 +13,14 @@ Items: {
 		DisplayName: Shrimpy Gun
 		Tooltip: ""
 	}
+
+	ShrimpyYoyo: {
+		DisplayName: Shrimpy Yoyo
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	ShrimpyYoYoProjectile.DisplayName: Shrimpy Yo Yo Projectile
+	ShrimpyYoyoProjectile.DisplayName: Shrimpy Yoyo Projectile
 }
